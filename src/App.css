@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+.btn{
+  border: 0;
+  padding: 8px 15px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 20px;
+}
+.col-8{
+  float: left;
+  width: 66.6%;
+}
+.col-4{
+  float: left;
+  width: 33.3%;
+}
+/* ========= Main Content Style ============ */
+/* .tutorials{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 20px;
+} */
+/* ========= container Style ============ */
+.container{
+  width: 95%;
+  margin: 0 auto;
+}
+
+
+/* ========= Header Style ============ */
+.header_area{
+  width: 100%;
+  background-color: #222;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.sign_up{
+  background-color: rgba(7, 143, 64, 0.596);
+  color: #f2f2f2;
+}
+
+.banner_area{
+  padding: 50px 0;
+  background-color: #eee;
+}
+.banner_title{
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 1.5;
+}
+.banner_text{
+  font-size: 18px;
+  font-weight: 400;
+  color: #333;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.banner_btn{
+  background-color: #428bca;
+  color: #fff;
+}
+/* ============== Footer Stayle ================ */
+.footer_area{
+  padding: 50px 0;
+  background-color: #eee;
+  width: 100%;
+  text-align: center;
+}
